@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;700&family=Roboto+Serif:opsz,wght@8..144,500&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #124edb 0%, #070228 100%);
+    font-family: 'Michroma', sans-serif;
+}
+
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(200, 195, 184);
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(200, 195, 184);
+    
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #124edb 0%, #070228 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #124edb 0%, #070228 100%);
+    color: aquamarine;
+    
+}
+
+.card a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.left {
+    border-right: 1px solid yellow;
+}
+
+.middle {
+    border-right: 1px solid yellow;
+}
+
+.slide-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer {
+    border-top: 2px solid yellow;
+    background: linear-gradient(270deg, #124edb 0%, #070228 100%);
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.asking a {
+    text-decoration: none;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.asking button {
+    background: linear-gradient(270deg, #124edb 0%, #070228 100%);
+    color: aquamarine;
+}
+
+.asking button:hover {
+    color: yellow;
+}
+
+.left-side {
+    color: aquamarine;
+    margin: 100px auto;
+}
+
+.left-side p {
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.left-side h6 {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
